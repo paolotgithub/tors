@@ -9,10 +9,15 @@ Starting from your seed genes list, tors searches for their interactors and rela
 What you need is 1) a Python 3 installation, 2) a file containing your starting seeds (genes, or any other type of 'node'), and 3) an interaction dataset file, representing your network in Simple Interaction Format (SIF), i.e. nothing else represented as (at least) two columns, one for each interactor, as for example:
 
 A (interacting with) B
+
 A C
+
 A D
+
 B D
+
 C A
+
 C B
 ...
 
