@@ -37,7 +37,7 @@ Here below follows a typical stdout.
 prompt:$ python tors_interactor_finder_p3_ok.py
 
 ###########################################################################################
-# TORS SEARCHES FOR BINARY INTERACTION IN PPI DATASETS STARTING FROM A LIST OF SEED GENES #
+TORS SEARCHES FOR BINARY INTERACTIONS IN PPI DATASETS STARTING FROM A LIST OF SEED GENES
 ###########################################################################################
 
 * * * * * * *
