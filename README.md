@@ -35,7 +35,9 @@ Here below follows a typical stdout.
 ################
 
 prompt:$
+
 prompt:$
+
 prompt:$ python tors_interactor_finder_p3_ok.py
 
 ###########################################################################################
@@ -92,6 +94,8 @@ Elapsed computing time: 0.08770513534545898 seconds
 ################
 
 prompt:$
+
 prompt:$
+
 prompt:$
 
