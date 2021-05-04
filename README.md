@@ -19,6 +19,7 @@ B D
 C A
 
 C B
+
 ...
 
 It can easily be used by typing on the terminal the following instructions:
