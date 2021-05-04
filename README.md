@@ -34,6 +34,8 @@ Here below follows a typical stdout.
 
 ################
 
+prompt:$
+prompt:$
 prompt:$ python tors_interactor_finder_p3_ok.py
 
 ###########################################################################################
@@ -88,4 +90,8 @@ Computed on 2021-05-04 17:43:52.901537 from seed dataset seed_genes_list.txt and
 Elapsed computing time: 0.08770513534545898 seconds
 
 ################
+
+prompt:$
+prompt:$
+prompt:$
 
