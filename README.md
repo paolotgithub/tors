@@ -2,7 +2,7 @@ tors interactor finder
 
 tors_interactor_finder is a small, simple and stupid Python 3 app to search interactions starting from a seed list and an interaction dataset.
 
-Its original use is intended in network biology and network medicine, but of course it can be used to dig into any type of interaction dataset. You don't need any programming skill to use tors.
+Its original use is intended in network biology and network medicine, but of course it can be used to dig into any type of interaction dataset. You don't need any programming skill to use tors (neither do I :-).
 
 Starting from your seed genes list, tors searches for their interactors and related interactions, and generates a report with interaction data to be used for further network analysis.
 
