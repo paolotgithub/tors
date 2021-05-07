@@ -1,12 +1,12 @@
 tors interactor finder
 
-tors_interactor_finder is a small, simple and stupid Python 3 app to search interactions starting from a seed list and an interaction dataset.
+tors_interactor_finder is a small, simple and stupid Python 3 app to search interactions starting from a seed list and an interaction dataset. tors was written with the intention of making extremely easy and accessible for anyone the creation of subnetworks from larger networks for the further network analysis.
 
-Its original use is intended in network biology and network medicine, but of course it can be used to dig into any type of interaction dataset. You don't need any programming skill to use tors (neither do I :-).
+tors' original use is for network biology and network medicine tasks, but of course it can be used to dig into any type of interaction dataset. You don't need any programming skill to use tors (neither do I :-).
 
 Starting from your seed genes list, tors searches for their interactors and related interactions, and generates a report with interaction data to be used for further network analysis.
 
-What you need is 1) a Python 3 installation, 2) a file containing your starting seeds (genes, or any other type of 'node'), and 3) an interaction dataset file, representing your network in Simple Interaction Format (SIF), i.e. nothing else represented as (at least) two columns, one for each interactor, as for example:
+What you need is 1) a Python 3 installation, 2) a file containing your starting seeds (genes, or any other type of 'node'), and 3) an interaction dataset file, representing your network in Simple Interaction Format (SIF), i.e. represented as (at least) two columns, one for each interactor, as for example:
 
 A (interacting with) B
 
@@ -22,13 +22,15 @@ C B
 
 ...
 
-It can easily be used by typing on the terminal the following instructions:
+tors can easily be used by a) having the file containing your starting seeds, the interaction dataset file and the tors python app in the same folder, b) by typing on the terminal the following instructions:
 
 python tors_interaction_finder_p3_ok.py
 
-and following the few further instructions on screen. 
+and c) following the few further instructions on screen. 
 
-Example interaction dataset, seed genes and result files are provided.
+tors looks for seed genes in the interaction dataset, searches their interactors and the interactions seed-seed, seed-interactor, interactor-interactor, and generates a file containing such interactions in SIF format from which the subnetwork can be created. 
+
+Example interaction dataset, seed genes and result files are provided here.
 
 Here below follows a typical stdout.
 
